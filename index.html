@@ -9,37 +9,52 @@
     <!-- tailwind CDN -->
 
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
+    <!-- Font awesome CDN -->
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 
 <body class="mulish-fonts">
     <header>
-        <nav class="flex justify-between mt-[49px]">
+        <nav class="justify-between flex md:hidden mt-[21px]">
+            <p>9:41</p>
+            <ul class="flex gap-[5px]">
+                <li><i class="fa-solid fa-signal"></i></li>
+                <li><i class="fa-solid fa-wifi"></i></li>
+                <li><i class="fa-solid fa-battery-full"></i></li>
+            </ul>
+        </nav>
+        <nav class="flex justify-between mt-[49px] max-sm:mt-4">
             <div class="flex items-center gap-4">
                 <img src="assets/Images/Group 40071 (2).png" alt="" class="w-[49px] h-[57px]">
-                <h3 class="font-extrabold text-[36px] text-[#131318]">Hero <Span class="text-[#FF5400]">Travel</Span>
+                <h3 class="font-extrabold text-[36px] text-[#131318] max-sm:text-[21px]">Hero <Span class="text-[#FF5400]">Travel</Span>
                 </h3>
             </div>
-            <ul class="flex gap-[45px] dark-2 text-[18px]">
+            <ul class="gap-[45px] dark-2 text-[18px] hidden md:flex">
                 <li class="text-[#FF5400] font-bold">Home</li>
                 <li>Pakages</li>
                 <li>Testimonial</li>
                 <li>Blog</li>
                 <li>Contact</li>
             </ul>
+            <span class="block md:hidden"><i class="fa-solid fa-bars"></i></span>
         </nav>
 
-        <div class="flex banner items-center justify-center">
-            <div class="w-[800px] h-[289px] text-center">
-                <div class="mb-[49px]">
-                    <h2 class="font-extrabold text-white text-[63px]">Explore Your Travel</h2>
+        <div class="flex banner md:items-center justify-center mt-[43px]">
+            <div class="w-[800px] h-[289px] text-center max-sm:w-[304px] max-sm:mt-5">
+                <div class="mb-[49px] max-sm:mb-7">
+                    <h2 class="font-extrabold text-white text-[63px] max-sm:text-[22px]">Explore Your Travel</h2>
                     <p class="text-white">Dolor sit amet consectetur. Nullam suspendisse vitae ultricies dolor
                         adipiscing. In et odio enim ac quis sapien urna eu phasellus.</p>
                 </div>
-                <div class="flex banner-btn items-center justify-center">
+                <div class="flex banner-btn items-center justify-center max-sm:flex-col max-sm:gap-[18px]">
                     <button class="primary-btn">Where go</button>
-                    <button class="primary-btn">When</button>
-                    <button class="primary-btn">Select type</button>
-                    <button class="primary-btn" id="find-btn">Find now</button>
+                    <button class="primary-btn">When <i class="fa-solid fa-angle-down ml-10"></i></button>
+                    <button class="primary-btn">Select type<i class="fa-solid fa-angle-down"></i></button>
+                    <button class="primary-btn" id="find-btn"><i class="fa-brands fa-sistrix mr-4"></i>Find now</button>
                 </div>
             </div>
         </div>

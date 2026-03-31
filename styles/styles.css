@@ -52,3 +52,29 @@ body{
 .select-boder{
     border: none;
 }
+
+@media screen and (max-width: 576px) {
+
+    body{
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+    .banner-btn{
+        width: 297px;
+        height: 288px;
+    }
+
+    .banner{
+        height: 493px;
+    }
+
+    .primary-btn{
+        width: 255px;
+        margin-left: 1px;
+        padding-right: 126px;
+    }
+
+    #find-btn{
+        padding: 15px;
+    }
+}
