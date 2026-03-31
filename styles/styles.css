@@ -63,7 +63,7 @@ body {
 
 /* choose section css */
 
-#choose-color {
+.choose-color {
     color: rgba(19, 19, 24, 0.7);
 }
 
@@ -85,7 +85,7 @@ body {
     border-radius: 16px;
 }
 
-.srilanka-img{
+.srilanka-img {
     background-image: linear-gradient(rgba(19, 19, 24, 0.2)), url(../assets/Images/Rectangle\ 6.png);
     background-repeat: no-repeat;
     width: 374px;
@@ -93,7 +93,7 @@ body {
     border-radius: 16px;
 }
 
-.north-america-img{
+.north-america-img {
     background-image: linear-gradient(rgba(19, 19, 24, 0.2)), url(../assets/Images/Rectangle\ 7.png);
     background-repeat: no-repeat;
     width: 476px;
@@ -101,7 +101,7 @@ body {
     border-radius: 16px;
 }
 
-.kashmir{
+.kashmir {
     background-image: linear-gradient(rgba(19, 19, 24, 0.2)), url(../assets/Images/Rectangle\ 9.png);
     background-repeat: no-repeat;
     width: 274px;
@@ -109,9 +109,25 @@ body {
     border-radius: 16px;
 }
 
+.bangladesh-img {
+    background-image: linear-gradient(rgba(19, 19, 24, 0.2)), url(../assets/Images/Rectangle\ 11.png);
+    background-repeat: no-repeat;
+    border-radius: 16px;
+    width: 473px;
+    height: 300px;
+}
+
+.bandarban-img {
+    background-image: linear-gradient(rgba(19, 19, 24, 0.2)), url(../assets/Images/Rectangle\ 10.png);
+    background-repeat: no-repeat;
+    border-radius: 16px;
+    width: 673px;
+    height: 300px;
+}
+
 /* sheard css */
 
-.country-name-sheare {
+.country-name-share {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -144,5 +160,47 @@ body {
 
     #find-btn {
         padding: 15px;
+    }
+
+    .maldives-img {
+        width: 100%;
+        height: 176px;
+        background-size: 100% 100%;
+    }
+
+    .indonesia-img {
+        width: 100%;
+        height: 176px;
+        background-size: 100% 100%;
+    }
+
+    .srilanka-img {
+        width: 100%;
+        height: 176px;
+        background-size: 100% 100%;
+    }
+
+    .north-america-img {
+        width: 100%;
+        height: 176px;
+        background-size: 100% 100%;
+    }
+
+    .kashmir {
+        width: 100%;
+        height: 176px;
+        background-size: 100% 100%;
+    }
+
+    .bandarban-img {
+        width: 100%;
+        height: 176px;
+        background-size: 100% 100%;
+    }
+
+    .bangladesh-img {
+        width: 100%;
+        height: 176px;
+        background-size: 100% 100%;
     }
 }
