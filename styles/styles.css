@@ -1,61 +1,59 @@
-
-
 @import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap');
 
 
 .mulish-fonts {
-  font-family: "Mulish", sans-serif;
-  font-optical-sizing: auto;
-  font-style: normal;
+    font-family: "Mulish", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
 }
 
 
-body{
+body {
     max-width: 1190px;
     margin: auto;
 }
 
-.dark-2{
+.dark-2 {
     color: rgba(66, 66, 71, 1);
 }
 
-.banner{
-    background-image:linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.2)), url(../assets/Images/Group\ 13\ \(1\)\ \(1\).png);
+.banner {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.2)), url(../assets/Images/Group\ 13\ \(1\)\ \(1\).png);
     background-repeat: no-repeat;
     width: 100%;
     height: 500px;
     border-radius: 10px;
 }
 
-.primary-btn{
-     color: rgba(19, 19, 24, 0.5);
-     padding: 16px;
-     height: 52px;
+.primary-btn {
+    color: rgba(19, 19, 24, 0.5);
+    padding: 16px;
+    height: 52px;
     width: 174px;
     border-radius: 9px;
     background-color: white;
     margin-left: 18px;
 }
 
-#find-btn{
+#find-btn {
     background-color: #FF5400;
     color: white;
 }
 
-.banner-btn{
+.banner-btn {
     width: 800px;
     height: 80px;
     background-color: rgba(255, 255, 255, 0.3);
     border-radius: 10px;
 }
 
-.select-boder{
+.select-boder {
     border: none;
 }
 
 /* our popular section */
 
-.read-btn{
+.read-btn {
     background-color: #FF5400;
     color: white;
     padding: 14px 35px;
@@ -65,32 +63,86 @@ body{
 
 /* choose section css */
 
-#choose-color{
+#choose-color {
     color: rgba(19, 19, 24, 0.7);
+}
+
+/* country section css */
+
+.maldives-img {
+    background-image: linear-gradient(rgba(19, 19, 24, 0.2)), url(../assets/Images/Rectangle\ 5.png);
+    background-repeat: no-repeat;
+    width: 573px;
+    height: 300px;
+    border-radius: 16px;
+}
+
+.indonesia-img {
+    background-image: linear-gradient(rgba(19, 19, 24, 0.2)), url(../assets/Images/Rectangle\ 8.png);
+    background-repeat: no-repeat;
+    width: 573px;
+    height: 300px;
+    border-radius: 16px;
+}
+
+.srilanka-img{
+    background-image: linear-gradient(rgba(19, 19, 24, 0.2)), url(../assets/Images/Rectangle\ 6.png);
+    background-repeat: no-repeat;
+    width: 374px;
+    height: 286px;
+    border-radius: 16px;
+}
+
+.north-america-img{
+    background-image: linear-gradient(rgba(19, 19, 24, 0.2)), url(../assets/Images/Rectangle\ 7.png);
+    background-repeat: no-repeat;
+    width: 476px;
+    height: 286px;
+    border-radius: 16px;
+}
+
+.kashmir{
+    background-image: linear-gradient(rgba(19, 19, 24, 0.2)), url(../assets/Images/Rectangle\ 9.png);
+    background-repeat: no-repeat;
+    width: 274px;
+    height: 286px;
+    border-radius: 16px;
+}
+
+/* sheard css */
+
+.country-name-sheare {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 28px;
+    font-weight: 800;
+    color: white;
 }
 
 @media screen and (max-width: 576px) {
 
-    body{
+    body {
         margin-left: 15px;
         margin-right: 15px;
     }
-    .banner-btn{
+
+    .banner-btn {
         width: 297px;
         height: 288px;
     }
 
-    .banner{
+    .banner {
         height: 493px;
     }
 
-    .primary-btn{
+    .primary-btn {
         width: 255px;
         margin-left: 1px;
         padding-right: 126px;
     }
 
-    #find-btn{
+    #find-btn {
         padding: 15px;
     }
 }
