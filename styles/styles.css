@@ -138,16 +138,36 @@ body {
 
 /* services section css */
 
-.service-banner{
+.service-banner {
     background-color: rgba(251, 181, 99, 0.2);
     border-radius: 16px;
 }
 
-.services-banner-2{
+.services-banner-2 {
     background-color: rgba(41, 206, 246, 0.2);
     border-radius: 16px;
 }
 
+/* discount sectioon css */
+
+.discount-box-bg {
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 16px;
+}
+
+.discount-bg {
+    background-image: url(../assets/Images/Group\ 39.png);
+    background-repeat: no-repeat;
+    border-radius: 16px;
+    height: 500px;
+}
+
+.discount-bg-2{
+    background-image: url(../assets/Images/Group\ 40.png);
+    background-repeat: no-repeat;
+    border-radius: 16px;
+    height: 500px;
+}
 
 @media screen and (max-width: 576px) {
 
@@ -215,6 +235,10 @@ body {
         width: 100%;
         height: 176px;
         background-size: 100% 100%;
+    }
+
+    .discount-box-bg{
+        height: 400px;
     }
 }
 
